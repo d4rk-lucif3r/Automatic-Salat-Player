@@ -1,6 +1,6 @@
 # Automatic Salat Player
 
-This is a simple script that will automatically play Salat (Prayer) at the right time, which is fetched from the [Prayer Times API](https://aladhan.com/prayer-times-api).
+This is a simple script that will automatically play Salat (Prayer) on Bluetooth Speaker at the right time, which is fetched from the [Prayer Times API](https://aladhan.com/prayer-times-api).
 
 ## How to use
 
@@ -36,6 +36,8 @@ This is a simple script that will automatically play Salat (Prayer) at the right
         14 - Spiritual Administration of Muslims of Russia
         15 - Moonsighting Committee Worldwide (also requires shafaq parameter)
         16 - Dubai (unofficial)
+
+3. Add Mac Address of your bluetooth
 
 3. Save the file
 
