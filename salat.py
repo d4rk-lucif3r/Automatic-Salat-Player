@@ -12,7 +12,7 @@ import time
 
 
 logging.basicConfig(
-    filename='/home/pi/Automatic-Salat-Player/logs/salat.log', level=logging.INFO)
+    filename='//Automatic-Salat-Player/logs/salat.log', level=logging.INFO)
 
 
 def get_salat_times():
@@ -33,9 +33,9 @@ if __name__ == '__main__':
     data = get_salat_times()
     if data is None:
         logging.info(' Error fetching salat times; will use last saved times')
-        data = json.load(open('/home/pi/Automatic-Salat-Player/data/salat_times.json', 'r'))
+        data = json.load(open('//Automatic-Salat-Player/data/salat_times.json', 'r'))
     else:
-        with open('/home/pi/Automatic-Salat-Player/data/salat_times.json', 'w') as f:
+        with open('//Automatic-Salat-Player/data/salat_times.json', 'w') as f:
             json.dump(data, f)
         logging.info(' Today\'s Salat times saved')
     logging.info(' Today\'s Salat times:')

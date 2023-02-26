@@ -3,10 +3,10 @@ import json
 import datetime
 import logging
 logging.basicConfig(
-    filename='/home/pi/Automatic-Salat-Player/logs/test.log', level=logging.INFO)
+    filename='//Automatic-Salat-Player/logs/test.log', level=logging.INFO)
 
 import time
-prayer_times = json.load(open('/home/pi/Automatic-Salat-Player/data/test.json', 'r'))
+prayer_times = json.load(open('//Automatic-Salat-Player/data/test.json', 'r'))
 
 
 def play_azaan(prayer_name):
