@@ -1,0 +1,12 @@
+INFO:root: Assalamu alaikum, fetching Salat times for today at Sun Feb 26 09:28:49 2023
+INFO:root: Salat times fetched
+INFO:root: Today's Salat times saved
+INFO:root: Today's Salat times:
+INFO:root:{'Fajr': '05:31', 'Dhuhr': '12:34', 'Asr': '15:51', 'Maghrib': '18:19', 'Isha': '19:38'}
+INFO:root: Scheduling Salat
+INFO:root: Scheduled Dhuhr at 12:34:00
+INFO:root: Scheduled Asr at 15:51:00
+INFO:root: Scheduled Maghrib at 18:19:00
+INFO:root: Scheduled Isha at 19:38:00
+INFO:root: Its time for Dhuhr
+INFO:root: Azaan for Dhuhr is over
